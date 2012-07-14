@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "auctionhouse"
   gem.homepage = "http://github.com/foxnewsnetwork/auctionhouse"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple macro used to generate out an online-auction platform. Currently in development.}
+  gem.description = %Q{Generates out a fully functional set of models, controllers, views, specs, and migrations for an operational auction site much like ebay or the millions of flash-sales sites out there. Currently in development.}
   gem.email = "foxnewsnetwork@gmail.com"
   gem.authors = ["Thomas Chen"]
   # dependencies defined in Gemfile
