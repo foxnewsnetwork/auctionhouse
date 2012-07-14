@@ -1,6 +1,16 @@
 = auctionhouse
 
-Description goes here.
+Builds the auction-house back end models and controllers to allow for some sort
+of user-contributed bidding system. Obviously, a rails app.
+
+models:
+item (has_many bids)
+bid (belongs_to item)
+
+controllers:
+item : [show index edit post put destroy]
+bid : [post put destroy]
+
 
 == Contributing to auctionhouse
  
