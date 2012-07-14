@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "auctionhouse.gemspec",
     "lib/auctionhouse.rb",
     "lib/auctionhouse/generators.rb",
     "lib/auctionhouse/tasks.rb",
