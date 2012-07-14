@@ -1,0 +1,17 @@
+Description:
+    A big macro for generating out a (currently simple) item-auction platform.
+    The current functionality is highly limited because I am still building it,
+    but eventually expect it to generate an ebay-like service with 1 command.
+
+Example:
+    rails generate auctionhouse Item
+
+    This will create:
+        app/controllers/items_controller.rb
+        app/controllers/item_bids_controller.rb
+        app/model/item.rb
+        app/model/item_bid.rb
+        db/migrate/auctionhouse_create_item.rb
+    
+    This will modify:
+    		config/routes.rb
