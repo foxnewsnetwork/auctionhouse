@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Thomas Chen"]
-  s.date = "2012-07-14"
+  s.date = "2012-07-15"
   s.description = "Generates out a fully functional set of models, controllers, views, specs, and migrations for an operational auction site much like ebay or the millions of flash-sales sites out there. Currently in development."
   s.email = "foxnewsnetwork@gmail.com"
   s.extra_rdoc_files = [
